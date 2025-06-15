@@ -331,7 +331,7 @@
                 let chatHistory = [];
                 chatHistory.push({ role: "user", parts: [{ text: `As an HR Compliance Advisor, analyze the following scenario related to international HR compliance and risk. Provide an initial assessment and suggest key considerations or next steps. Be concise and professional: ${scenarioInput}` }] });
                 const payload = { contents: chatHistory };
-                const apiKey = ""; 
+                const apiKey = "AIzaSyAK4i_IkYPla97kbFQt9QwnCUIIj1VZG9I"; 
                 const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
                 const response = await fetch(apiUrl, {
